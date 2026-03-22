@@ -20,4 +20,4 @@ class SaveSystem:
         if os.path.exists(self.settings_file):
             with open(self.settings_file, "r") as f:
                   return json.load(f)
-        return {"language": "de", "music_volume": 50=}
+        return {"language": "de", "music_volume": 50}
